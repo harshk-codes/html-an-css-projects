@@ -1,131 +1,142 @@
-/***tag selector**/
+/*********tag selectors*********/
 body {
-  background-color: #e0e8ff;
-  margin: 0;
+  background-color: #f2f2f2;
 }
 
 img {
-  width: 1540px;
-  height: 310px;
-}
-
-/***class selector*/
-.illustration-hero {
-  width: 320px;
-  height: 170px;
-  display: inline-block;
   position: absolute;
-  left: 600px;
-  top: 100px;
-  border-radius: 10px 10px 0 0;
+  left: 40px;
+  top: 50px;
 }
 
-.content {
-  background-color: white;
-  border-radius: 0 0 10px 10px;
-  display: inline-block;
+/******class selectors*********/
+.Sedans {
+  background-color: #e38826;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FFFFFFC0;
+  width: 300px;
+  border-radius: 7px 0 0 7px;
   position: absolute;
-  left: 600px;
-  top: 250px;
-  width: 320px;
-  height: 320px;
-  box-shadow: 0 10px 50px #B6C9F0;
+  display: block;
+  left: 318px;
+  top: 130px;
+  height: 470px;
 }
 
-.summary {
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 20px;
+.SUVs {
+  background-color: #006970;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FFFFFFC0;
+  width: 300px;
+  position: absolute;
+  display: block;
+  left: 618px;
+  top: 130px;
+  height: 470px;
 }
 
-.description {
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: 500;
-  color: #889EAF;
-  text-align: center;
-  margin-top: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+.Luxury {
+  background-color: #004241;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FFFFFFC0;
+  width: 300px;
+  border-radius: 0 7px 7px 0;
+  position: absolute;
+  display: block;
+  right: 318px;
+  top: 130px;
+  height: 470px;
+}
+
+.heading-1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+.heading-2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+.heading-3 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+.description-1 {
+  position: absolute;
+  top: 180px;
+  text-align: justify;
+  left: 40px;
   font-size: 15px;
 }
 
-.Plan {
-  background-color: #f8f9fe;
-  border-radius: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-family: 'Red Hat Display', sans-serif;
-  height: 60px;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
+.description-2 {
   position: absolute;
-  top: 156px;
-  left: 50px;
-}
-
-.plan {
-  padding-left: 60px;
-  font-size: 10px;
-  font-weight: bolder;
-  display: block;
-  position: absolute;
-  top: 146px;
-}
-
-.cost {
-  display: block;
-  position: absolute;
-  top: 166px;
-  font-size: 12px;
-  font-weight: 500;
-  color: #889EAF;
-  padding-left: 60px;
-  margin-top: 8px;
-}
-
-.change {
-  display: block;
-  position: absolute;
-  right: 50px;
-  top: 163px;
-  font-size: 10px;
-  font-weight: bold;
-}
-
-.button-1 {
-  background-color: #382ae1;
-  height: 36px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 10px 20px #cad5f4;
-}
-
-.btn {
-  color: white;
-  text-decoration: none;
+  top: 180px;
+  left: 40px;
   text-align: justify;
-  position: absolute;
-  top: 232px;
-  right: 85px;
+  font-size: 15px;
 }
 
-.cancel {
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: #889EAF;
-  margin-top: 20px;
+.description-3 {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.btn-sedans {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #e38826;
+  position: absolute;
+  left: 40px;
+  top: 380px;
+  padding: 12px 22px 12px 22px;
+}
+
+.btn-suvs {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #006970;
+  position: absolute;
+  left: 40px;
+  top: 380px;
+  padding: 12px 22px 12px 22px;
+}
+
+.btn-luxury {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #004241;
+  position: absolute;
+  left: 40px;
+  top: 380px;
+  padding: 12px 22px 12px 22px;
 }
