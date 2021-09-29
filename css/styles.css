@@ -1,0 +1,142 @@
+/*********tag selectors*********/
+body {
+  background-color: #f2f2f2;
+}
+
+img {
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+/******class selectors*********/
+.Sedans {
+  background-color: #e38826;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FFFFFFC0;
+  width: 300px;
+  border-radius: 7px 0 0 7px;
+  position: absolute;
+  display: block;
+  left: 318px;
+  top: 130px;
+  height: 470px;
+}
+
+.SUVs {
+  background-color: #006970;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FFFFFFC0;
+  width: 300px;
+  position: absolute;
+  display: block;
+  left: 618px;
+  top: 130px;
+  height: 470px;
+}
+
+.Luxury {
+  background-color: #004241;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #FFFFFFC0;
+  width: 300px;
+  border-radius: 0 7px 7px 0;
+  position: absolute;
+  display: block;
+  right: 318px;
+  top: 130px;
+  height: 470px;
+}
+
+.heading-1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+.heading-2 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+.heading-3 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+.description-1 {
+  position: absolute;
+  top: 180px;
+  text-align: justify;
+  left: 40px;
+  font-size: 15px;
+}
+
+.description-2 {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.description-3 {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.btn-sedans {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #e38826;
+  position: absolute;
+  left: 40px;
+  top: 380px;
+  padding: 12px 22px 12px 22px;
+}
+
+.btn-suvs {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #006970;
+  position: absolute;
+  left: 40px;
+  top: 380px;
+  padding: 12px 22px 12px 22px;
+}
+
+.btn-luxury {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #004241;
+  position: absolute;
+  left: 40px;
+  top: 380px;
+  padding: 12px 22px 12px 22px;
+}
