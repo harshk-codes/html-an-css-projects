@@ -1,2 +1,2 @@
 # html-an-css-projects
-all projects using html and css
+all practice projects using html and css
